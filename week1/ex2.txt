@@ -1,0 +1,99 @@
+    1  man sudo_root
+    2  ls .
+    3  ls
+    4  lc
+    5  ls
+    6  ls /
+    7  ls -lah
+    8  cd /
+    9  ls .
+   10  cd WSL
+   11  cd usr
+   12  ls .
+   13  sd ~
+   14  cd ~
+   15  ls .
+   16  ls /
+   17  cd /
+   18  ls
+   19  ls /
+   20  cd /
+   21  ls .
+   22  mkdir ~/week1
+   23  cd week1
+   24  cd ~
+   25  cd week1
+   26  ls /usr/bin
+   27  ls /usr/bin > try1.txt
+   28  ls .
+   29  try1.txt
+   30  head < try1.txt
+   31  head -n 3 < try1.txt
+   32  less try1.txt
+   33  cd `
+LS .
+ls .
+q
+
+   34  ls .
+   35  ls /usr/bin | sort -r |  > try2.txt
+   36  ls .
+   37  less try2.txt
+   38  ls /usr/bin | sort -r   > try2.txt
+   39  ls .
+   40  less try2.txt
+   41  man awk
+   42  ls /usr/bin | sort -r *.gcc   > try2.txt
+   43  ls /usr/bin *.gcc | sort -r  > try2.txt
+   44  ls *.gcc /usr/bin  | sort -r  > try2.txt
+   45  ls *gcc /usr/bin  | sort -r  > try2.txt
+   46  ls /usr/bin | sort -r   > try2.txt
+   47  ls /usr/bin -r | grep gcc
+   48  ls /usr/bin -r 
+   49  ls /usr/bin -r | grep apt
+   50  ls /usr/bin -r | grep apt > ex1.txt
+   51  cat ex1.txt 
+   52  less ex1.txt 
+   53  ls /usr/bin -r | grep gcc
+   54  ls /usr/bin -r | grep apt > ex1.txt
+   55  cd /
+   56  git clone https://github.com/safinsaf/os_homework.git
+   57  git --version
+   58  gir config --global user.name "safinsaf"
+   59  git config --global user.name "safinsaf"
+   60  git config --global user.email "safinsaft@gmail.com"
+   61  git config --list
+   62  pwd
+   63  ls
+   64  cd home
+   65  ls
+   66  cd insaf
+   67  cd ~
+   68  mkdir git_workspace
+   69  cd git_workspace
+   70  git clone https://github.com/safinsaf/os_homework.git
+   71  ls
+   72  ls os_homeworks
+   73  ls os_homework
+   74  touch H.java
+   75  gedit H.java
+   76  sudo apt install gedit
+   77  apt-get update
+   78  gedit H.java
+   79  sudo apt-get update
+   80  gedit H.java
+   81  sudo apt install degit
+   82  sudo apt-get dist-upgrade
+   83  gedit H.java
+   84  sudo apt install gedit
+   85  vim
+   86  nano
+   87  cd ~
+   88  ls
+   89  cd week1
+   90  ls
+   91  nano ex1.txt
+   92  touch ex2.txt
+   93  ды
+   94  ls
+   95  history > ex2.txt

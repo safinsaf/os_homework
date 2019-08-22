@@ -1,0 +1,14 @@
+debconf-apt-progress
+captoinfo
+apt-sortpkgs
+apt-mark
+apt-key
+apt-get
+apt-ftparchive
+apt-extracttemplates
+apt-config
+apt-cdrom
+apt-cache
+apt-add-repository
+apt
+add-apt-repository
