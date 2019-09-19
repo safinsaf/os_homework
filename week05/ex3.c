@@ -70,7 +70,6 @@ int main(){
 	int rc;
 	pthread_t t1, t2;
 	rc = pthread_create(&t1, NULL, (void*)producer, NULL);
-	//pthread_join(t1, NULL);
 	rc = pthread_create(&t2, NULL, (void*)consumer, NULL);
 	//pthread_join(t2, NULL);
 
@@ -80,7 +79,7 @@ int main(){
 		printf(" sleep2 : %d \n", sleep2);
 		printf(" wakeup1 : %d \n", wakeup1);
 		printf(" wakeup2 : %d \n\n", wakeup2);
-		sleep (0.1);
+		usleep(100);
 	}
 }
 
