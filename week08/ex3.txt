@@ -1,0 +1,70 @@
+/*
+top - 18:56:30 up 11 days,  2:08,  0 users,  load average: 0.52, 0.58, 0.59
+Tasks:   8 total,   1 running,   6 sleeping,   1 stopped,   0 zombie
+%Cpu(s):  2.9 us,  1.3 sy,  0.0 ni, 95.6 id,  0.0 wa,  0.2 hi,  0.0 si,  0.0 st
+KiB Mem : 16693036 total,  7050316 free,  9413368 used,   229352 buff/cache
+KiB Swap: 15448472 total, 15160636 free,   287836 used.  7145936 avail Mem
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+    1 root      20   0    8324    120     96 S   0.0  0.0   0:00.12 init
+    3 root      20   0    8332     72     36 S   0.0  0.0   0:00.00 init
+    4 insaf     20   0   16788   1608   1408 S   0.0  0.0   0:00.41 bash
+  590 root      20   0    8332    160    124 S   0.0  0.0   0:00.00 init
+  591 insaf     20   0   17052   3808   3680 S   0.0  0.0   0:00.55 bash
+  682 insaf     20   0   16068   3008   1504 T   0.0  0.0   0:00.05 nano
+  698 insaf     20   0   31028  20988    400 S   0.0  0.1   0:00.04 ex2
+  699 insaf     20   0   17488   1900   1432 R   0.0  0.0   0:00.01 top
+
+top - 18:56:31 up 11 days,  2:08,  0 users,  load average: 0.52, 0.58, 0.59
+Tasks:   8 total,   1 running,   6 sleeping,   1 stopped,   0 zombie
+%Cpu(s):  1.1 us,  1.1 sy,  0.0 ni, 97.8 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem : 16693036 total,  7050316 free,  9413368 used,   229352 buff/cache
+KiB Swap: 15448472 total, 15160636 free,   287836 used.  7145936 avail Mem
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+  698 insaf     20   0   41272  31232    400 S   3.0  0.2   0:00.07 ex2
+    1 root      20   0    8324    120     96 S   0.0  0.0   0:00.12 init
+    3 root      20   0    8332     72     36 S   0.0  0.0   0:00.00 init
+    4 insaf     20   0   16788   1608   1408 S   0.0  0.0   0:00.41 bash
+  590 root      20   0    8332    160    124 S   0.0  0.0   0:00.00 init
+  591 insaf     20   0   17052   3808   3680 S   0.0  0.0   0:00.55 bash
+  682 insaf     20   0   16068   3008   1504 T   0.0  0.0   0:00.05 nano
+  699 insaf     20   0   17488   1976   1504 R   0.0  0.0   0:00.01 top
+
+top - 18:56:32 up 11 days,  2:08,  0 users,  load average: 0.52, 0.58, 0.59
+Tasks:   8 total,   1 running,   6 sleeping,   1 stopped,   0 zombie
+%Cpu(s):  0.6 us,  1.3 sy,  0.0 ni, 97.9 id,  0.0 wa,  0.1 hi,  0.0 si,  0.0 st
+KiB Mem : 16693036 total,  7050316 free,  9413368 used,   229352 buff/cache
+KiB Swap: 15448472 total, 15160636 free,   287836 used.  7145936 avail Mem
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+  698 insaf     20   0   51516  41476    400 S   3.0  0.2   0:00.10 ex2
+  699 insaf     20   0   17488   1976   1504 R   1.0  0.0   0:00.02 top
+    1 root      20   0    8324    120     96 S   0.0  0.0   0:00.12 init
+    3 root      20   0    8332     72     36 S   0.0  0.0   0:00.00 init
+    4 insaf     20   0   16788   1608   1408 S   0.0  0.0   0:00.41 bash
+  590 root      20   0    8332    160    124 S   0.0  0.0   0:00.00 init
+  591 insaf     20   0   17052   3808   3680 S   0.0  0.0   0:00.55 bash
+  682 insaf     20   0   16068   3008   1504 T   0.0  0.0   0:00.05 nano
+
+top - 18:56:33 up 11 days,  2:08,  0 users,  load average: 0.52, 0.58, 0.59
+Tasks:   8 total,   1 running,   6 sleeping,   1 stopped,   0 zombie
+%Cpu(s):  0.4 us,  0.8 sy,  0.0 ni, 98.8 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem : 16693036 total,  7032456 free,  9431228 used,   229352 buff/cache
+KiB Swap: 15448472 total, 15160636 free,   287836 used.  7128076 avail Mem
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+  698 insaf     20   0   61760  51720    400 S   2.0  0.3   0:00.12 ex2
+    1 root      20   0    8324    120     96 S   0.0  0.0   0:00.12 init
+    3 root      20   0    8332     72     36 S   0.0  0.0   0:00.00 init
+    4 insaf     20   0   16788   1608   1408 S   0.0  0.0   0:00.41 bash
+  590 root      20   0    8332    160    124 S   0.0  0.0   0:00.00 init
+  591 insaf     20   0   17052   3808   3680 S   0.0  0.0   0:00.55 bash
+  682 insaf     20   0   16068   3008   1504 T   0.0  0.0   0:00.05 nano
+  699 insaf     20   0   17488   1976   1504 R   0.0  0.0   0:00.02 top
+
+
+
+Ex2 gots some memory and virtual memory 
+
+*/

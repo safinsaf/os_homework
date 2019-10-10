@@ -1,0 +1,11 @@
+What is the difference between a physical and a virtual address?
+
+Virtual adress is an abstraction of consequent and "infinite" memory that belongs to one program only.
+
+Physical adress is maintained by some phisical device. 
+Physical memory is used by a lot of programs simultaneusly, therefore physical adresses for one program may be not continuous.  
+
+So, differences:
+- virtual adresses usually greater than physical, because usually there are not such amount of physical memory that system can refer to.
+- virtual adress space is consequent for particular program, while physical adresses of one program can be scattered
+- virtual adress is mapped to physical adress
