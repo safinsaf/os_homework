@@ -1,0 +1,6 @@
+insaf@DESKTOP-E38DT9F:~/OS/os_homework/week10$ ls -i _ex1.txt
+6473924464883548 _ex1.txt
+insaf@DESKTOP-E38DT9F:~/OS/os_homework/week10$ ls -i _ex1_1.txt
+6473924464883548 _ex1_1.txt
+insaf@DESKTOP-E38DT9F:~/OS/os_homework/week10$ ls -i _ex1_2.txt
+6473924464883548 _ex1_2.txt

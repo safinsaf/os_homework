@@ -1,0 +1,28 @@
+insaf@DESKTOP-E38DT9F:~/OS/os_homework/week10$ touch _ex3.txt
+insaf@DESKTOP-E38DT9F:~/OS/os_homework/week10$ ls -l
+total 0
+-rw-rw-rw- 1 insaf insaf   0 Oct 24 12:03 _ex3.txt
+-rw-rw-rw- 1 insaf insaf 272 Oct 24 11:38 ex1.txt
+-rw-rw-rw- 1 insaf insaf 467 Oct 24 11:58 ex2.txt
+insaf@DESKTOP-E38DT9F:~/OS/os_homework/week10$ chmod 666 _ex3.txt
+insaf@DESKTOP-E38DT9F:~/OS/os_homework/week10$ ls -l
+total 0
+-rw-rw-rw- 1 insaf insaf   0 Oct 24 12:03 _ex3.txt
+-rw-rw-rw- 1 insaf insaf 272 Oct 24 11:38 ex1.txt
+-rw-rw-rw- 1 insaf insaf 467 Oct 24 11:58 ex2.txt
+insaf@DESKTOP-E38DT9F:~/OS/os_homework/week10$ chmod 767 _ex3.txt
+insaf@DESKTOP-E38DT9F:~/OS/os_homework/week10$ ls -l
+total 0
+-rwxrw-rwx 1 insaf insaf   0 Oct 24 12:03 _ex3.txt
+-rw-rw-rw- 1 insaf insaf 272 Oct 24 11:38 ex1.txt
+-rw-rw-rw- 1 insaf insaf 467 Oct 24 11:58 ex2.txt
+insaf@DESKTOP-E38DT9F:~/OS/os_homework/week10$ chmod 777 _ex3.txt
+insaf@DESKTOP-E38DT9F:~/OS/os_homework/week10$ ls -l
+total 0
+-rwxrwxrwx 1 insaf insaf   0 Oct 24 12:03 _ex3.txt
+-rw-rw-rw- 1 insaf insaf 272 Oct 24 11:38 ex1.txt
+-rw-rw-rw- 1 insaf insaf 467 Oct 24 11:58 ex2.txt
+
+660 means read and write are permitted to user and group, others can do nothing
+775 means read, write and execute are pernitted to user and group, others can read and execute
+777 means everyone can do anything

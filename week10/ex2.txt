@@ -1,0 +1,9 @@
+insaf@DESKTOP-E38DT9F:~/OS/os_homework/week10$ link ../week1/file.txt _ex2.txt
+insaf@DESKTOP-E38DT9F:~/OS/os_homework/week10$ ls -i _ex2.txt
+4222124650742063 _ex2.txt
+insaf@DESKTOP-E38DT9F:~/OS/os_homework/week10$ find ../ -inum 4222124650742063
+../week1/file.txt
+../week10/_ex2.txt
+insaf@DESKTOP-E38DT9F:~/OS/os_homework/week10$ find ../ -inum 4222124650742063 -exec rm {} \;
+insaf@DESKTOP-E38DT9F:~/OS/os_homework/week10$ ls
+_ex1.txt  _ex1_1.txt  _ex1_2.txt  ex1.t
