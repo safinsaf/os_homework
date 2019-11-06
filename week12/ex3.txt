@@ -1,0 +1,23 @@
+insaf@DESKTOP-E38DT9F:~/OS/os_homework/week12$ gcc copy.c -o copy -DBUF_SIZE=10
+insaf@DESKTOP-E38DT9F:~/OS/os_homework/week12$ time ./copy text.txt ex3.c
+
+real    0m0.075s
+user    0m0.000s
+sys     0m0.031s
+insaf@DESKTOP-E38DT9F:~/OS/os_homework/week12$ gcc copy.c -o copy -DBUF_SIZE=100
+insaf@DESKTOP-E38DT9F:~/OS/os_homework/week12$ time ./copy text.txt ex3.c
+
+real    0m0.017s
+user    0m0.000s
+sys     0m0.016s
+insaf@DESKTOP-E38DT9F:~/OS/os_homework/week12$ gcc copy.c -o copy -DBUF_SIZE=1
+insaf@DESKTOP-E38DT9F:~/OS/os_homework/week12$ time ./copy text.txt ex3.c
+
+real    0m0.273s
+user    0m0.031s
+sys     0m0.234s
+
+
+Increasing buffer size makes process faster
+After adding O_SYNC flag almost nothing shanged
+
